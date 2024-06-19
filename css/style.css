@@ -4545,6 +4545,9 @@ body.popup-open::before {
   display: flex;
   justify-content: space-evenly;
   gap: 10px;
+  &.min380 {
+    min-width: 380px;
+  }
   &.grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -4613,8 +4616,8 @@ body.popup-open::before {
     }
     & .btn-ico {
       width: 100%;
-      min-width: 55px;
-      max-width: 55px;
+      /* min-width: 55px; */
+      /* max-width: 55px; */
       aspect-ratio: 1 / 1;
       border-radius: 1rem;
 
