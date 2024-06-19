@@ -5357,7 +5357,13 @@ input[type="number"]::-webkit-inner-spin-button {
   & img {
     display: block;
     width: 100%;
+    &.img-map {
+      height: calc(100vh - 400px);
+      object-fit: cover;
+
+    }
   }
+  
 }
 .background {
   width: 100%;
